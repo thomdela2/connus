@@ -1,3 +1,0 @@
-# connus
-
-## repo initialized

@@ -10,6 +10,6 @@
 
     </head>
     <body>
-        Home
+        Blogs
     </body>
 </html>

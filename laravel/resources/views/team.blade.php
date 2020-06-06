@@ -10,6 +10,6 @@
 
     </head>
     <body>
-        Home
+        Hier komt info omtrent het team
     </body>
 </html>

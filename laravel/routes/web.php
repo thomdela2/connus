@@ -14,8 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@home')->name('home');
+Route::get('/', 'HomeController@influencers')->name('influencers');
 
-Route::get('/blogs', 'BlogController@blogs')->name('blogs');
+Route::get('/brand', 'HomeController@brands')->name('brands');
 
-Route::get('/backoffice', 'BackofficeController@dashboard')->name('dashboard');
+Route::get('/brand/advertising', 'HomeController@brand_ads')->name('brand-ads');
+Route::get('/influencer/advertising', 'HomeController@influencer_ads')->name('infuencer-ads');
+
+Route::get('/blogs', 'BlogController@home')->name('blogs');
+
+Route::get('/team', 'TeamController@home')->name('team');

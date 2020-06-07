@@ -10,6 +10,19 @@
 
     </head>
     <body>
-        Hier kun je alle FAQ zien
+        <header>
+            <h1>Header</h1>
+        </header>
+        <a class="add-btn" href="{{route('editfaq')}}">Add</a>
+        <div class="faq-container">
+            <div class="blog">
+                <h1>Want to try it out?</h1>
+                <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repellat sed fugit quibusdam qui unde neque iure commodi nihil nobis animi, dolore, incidunt cupiditate inventore numquam maxime quod porro. Adipisci.Fugit eos, sunt harum delectus saepe perspiciatis quae.</2>
+                <div class="faq-btn">
+                    <a class="btn" href="{{route('editfaq')}}">Edit</a>
+                    <a class="btn">Delete</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

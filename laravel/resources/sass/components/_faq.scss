@@ -1,0 +1,66 @@
+.faq-container {
+    height: 100%;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq {
+    height: 100%;
+    width: 76vw;
+    background-color: $test;
+    @include box();
+    display: flex;
+    flex-direction: column;
+}
+
+.add-btn {
+    margin-left: $margin-side;
+    @include backoffice-title();
+    @include btn();
+    margin-bottom: $box-height;
+}
+
+.btn {
+    @include backoffice-title();
+    @include btn();
+}
+
+.faq-btn {
+    display: flex;
+    justify-content: flex-end;
+    .btn {
+        margin: $btn-height;
+    }
+}
+
+.edit-btn {
+    display: flex;
+    justify-content: center;
+    .btn {
+        margin: $btn-height;
+    }
+}
+
+input, textarea {
+    margin: $btn-height;
+    @include btn();
+    background: none;
+    border: none;
+    border-bottom: 1px solid $black;
+    @include backoffice-content();
+    color: black;
+}
+
+h1 {
+    @include backoffice-title();
+    margin-bottom: $title-margin;
+}
+h2 {
+    @include backoffice-content();
+}
+
+/* @STATES */
+input::placeholder { color: black; }

@@ -114,3 +114,107 @@ input::placeholder {
   color: black;
 }
 
+.faq-container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq {
+  height: 100%;
+  width: 76vw;
+  background-color: #51e9af;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn {
+  margin-left: 10vw;
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  padding: 4px 6px 4px 6px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  padding: 4px 6px 4px 6px;
+}
+
+.faq-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.faq-btn .btn {
+  margin: 4px;
+}
+
+.edit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-btn .btn {
+  margin: 4px;
+}
+
+input,
+textarea {
+  margin: 4px;
+  padding: 4px 6px 4px 6px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #161616;
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+  color: black;
+}
+
+h1 {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+}
+
+/* @STATES */
+
+input::-webkit-input-placeholder {
+  color: black;
+}
+
+input::-moz-placeholder {
+  color: black;
+}
+
+input:-ms-input-placeholder {
+  color: black;
+}
+
+input::-ms-input-placeholder {
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+}
+

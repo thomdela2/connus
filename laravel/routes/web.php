@@ -24,3 +24,13 @@ Route::get('/influencer/advertising', 'HomeController@influencer_ads')->name('in
 Route::get('/blogs', 'BlogController@home')->name('blogs');
 
 Route::get('/team', 'TeamController@home')->name('team');
+
+Route::get('/faq', 'FaqController@home')->name('faq');
+
+
+
+Route::get('login/faq', 'BackofficeController@faqoverview')->name('overviewfaq');
+Route::get('login/faq/edit', 'BackofficeController@faqedit')->name('editfaq');
+
+Route::get('login/blogs', 'BackofficeController@blogoverview')->name('overviewblogs');
+Route::get('login/blogs/edit', 'BackofficeController@blogedit')->name('editblogs');

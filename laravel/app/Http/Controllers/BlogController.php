@@ -9,4 +9,5 @@ class BlogController extends Controller
     public function home () {
         return view('blog');
     }
+
 }

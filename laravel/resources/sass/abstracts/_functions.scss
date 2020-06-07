@@ -1,0 +1,42 @@
+@mixin title-large {
+    font-family: $fontfam;
+    font-style: $fontstyle;
+    font-weight: $fontweight-bold;
+    font-size: $fontsize-title-large;
+}
+
+@mixin subtitle-large {
+    font-family: $fontfam;
+    font-style: $fontstyle;
+    font-weight: $fontweight-bold;
+    font-size: $fontsize-subtitle-large;
+}
+
+@mixin content-large {
+    font-family: $fontfam;
+    font-style: $fontstyle;
+    font-weight: $fontweight-light;
+    font-size: $fontsize-content-large;
+}
+
+@mixin backoffice-title {
+    font-family: $fontfam;
+    font-style: $fontstyle;
+    font-weight: $fontweight-bold;
+    font-size: $fontsize-backoffice;
+}
+
+@mixin backoffice-content {
+    font-family: $fontfam;
+    font-style: $fontstyle;
+    font-weight: $fontweight-light;
+    font-size: $fontsize-backoffice-content;
+}
+
+@mixin box {
+    padding: $box-height $box-width $box-height $box-width;
+}
+
+@mixin btn {
+    padding: $btn-height $btn-width $btn-height $btn-width;
+}

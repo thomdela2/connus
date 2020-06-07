@@ -1,0 +1,39 @@
+/* @COLORS */
+$regular-blue: #008FFF;
+$dark-blue: #0C43C6;
+
+$regular-yellow: #FFCB21;
+$dark-yellow: #EFA517;
+
+$regular-purple: #BD19BE;
+$dark-purple: #7708A7;
+
+$black: #161616;
+$white: #EBF2F5;
+
+$test: rgb(81, 233, 175);
+
+/* @FONTS */
+@import url("https://use.typekit.net/gpk2rpd.css");
+
+$fontfam: tenon, sans-serif;
+$fontstyle: normal;
+$fontweight-light: 200;
+$fontweight-bold: 800;
+
+$fontsize-title-large: 70pt;
+$fontsize-subtitle-large: 44pt;
+$fontsize-content-large: 30pt;
+
+$fontsize-backoffice: 20pt;
+$fontsize-backoffice-content: 14pt;
+
+/* @PADDING & @MARGIN */
+$box-height: 30px;
+$box-width: 30px;
+
+$btn-height: 4px;
+$btn-width: 6px;
+
+$title-margin: 8px;
+$margin-side: 10vw;

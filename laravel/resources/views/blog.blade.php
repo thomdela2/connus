@@ -10,6 +10,17 @@
 
     </head>
     <body>
-        Blogs
+        <div class="blog-container">
+
+            @foreach ($blogs as $blog)
+
+            <div class="blog">
+                <h1>{{ $blog->title }}</h1>
+                <h2>{{ $blog->content }}</2>
+            </div>
+
+            @endforeach
+
+        </div>
     </body>
 </html>

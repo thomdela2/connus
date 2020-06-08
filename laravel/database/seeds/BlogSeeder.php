@@ -1,5 +1,6 @@
 <?php
 
+use App\Blog;
 use Illuminate\Database\Seeder;
 
 class BlogSeeder extends Seeder
@@ -11,6 +12,12 @@ class BlogSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $faker = Faker\Factory::create();
+
+        $blog = new Blog();
+        $blog->title=$faker->sentence($nbWords = 6, $variableNbWords = true);
+        $blog->content=$faker->text($maxNbChars = 200);
+
+        $blog->save();
     }
 }

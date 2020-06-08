@@ -20,6 +20,7 @@ class CreateBlogsTable extends Migration
             $table->string('content', 1000);
 
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

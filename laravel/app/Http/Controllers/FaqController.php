@@ -2,16 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Faq;
 use Illuminate\Http\Request;
 
 class FaqController extends Controller
 {
     public function home() {
-        return view('faq');
-    }
 
-    public function edit () {
-        return view('faq-edit');
+        $faqs = Faq::get();
+
+        return view('faq', [
+            'faqs'=>$faqs,
+        ]);
     }
 
 }

@@ -31,6 +31,8 @@ Route::get('/faq', 'FaqController@home')->name('faq');
 
 Route::get('login/faq', 'BackofficeController@faqoverview')->name('overviewfaq');
 Route::get('login/faq/edit', 'BackofficeController@faqedit')->name('editfaq');
+Route::get('login/faq/add', 'BackofficeController@faqadd')->name('addfaq');
 
 Route::get('login/blogs', 'BackofficeController@blogoverview')->name('overviewblogs');
 Route::get('login/blogs/edit', 'BackofficeController@blogedit')->name('editblogs');
+Route::get('login/blogs/add', 'BackofficeController@blogadd')->name('addblogs');

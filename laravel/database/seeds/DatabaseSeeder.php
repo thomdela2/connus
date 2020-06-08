@@ -11,6 +11,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UserSeeder::class);
+        for($i=0; $i<3; $i++) {
+            $this->call(BlogSeeder::class);
+        }
+
+        for($i=0; $i<10; $i++) {
+            $this->call(FaqSeeder::class);
+        }
+
     }
 }

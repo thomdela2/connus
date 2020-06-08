@@ -15,6 +15,7 @@ class BlogSeeder extends Seeder
         $faker = Faker\Factory::create();
 
         $blog = new Blog();
+
         $blog->title=$faker->sentence($nbWords = 6, $variableNbWords = true);
         $blog->content=$faker->text($maxNbChars = 200);
 

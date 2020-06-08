@@ -49,4 +49,35 @@ class BackofficeController extends Controller
         return view('faq-edit');
     }
 
+    public function blogSave (Request $r) {
+
+        // dd($request->title);
+
+        $r->validate([
+            'title' => 'required|max:256',
+            'content' => 'required|max:100,'
+        ]);
+
+        // dd('Yessir we made it this far!');
+        $data = [
+            'title' => $r->title,
+            'content' => $r->content,
+        ];
+
+        $blog = Blog::create($data);
+        // dd($blog);
+
+        return redirect()->route('overviewblogs');
+    }
+
+    public function faqSave (Request $r) {
+
+        $r->validate([
+            'question' => 'required|max:600',
+            'answer' => 'required|max:600,'
+        ]);
+
+        return redirect()->route('overviewfaq');
+    }
+
 }

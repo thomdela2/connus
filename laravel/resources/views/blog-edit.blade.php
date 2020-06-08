@@ -15,13 +15,26 @@
         </header>
         <a class="add-btn" href="{{route('overviewblogs')}}">return</a>
         <div class="blog-container">
-            <div class="blog">
+            <form class="blog" action="{{ route('saveblog') }}" method="post">
+                @csrf
                 <input type="text" name="title" id="input-title" placeholder="Titel">
-                <textarea name="content" id="" cols="30" rows="10" id="input-content">Inhoud</textarea>
-                <div class="edit-btn">
-                    <a class="btn" href="{{route('overviewblogs')}}">Add</a>
+                <textarea placeholder="Inhoud" name="content" id="input-content" cols="30" rows="10" id="input-content"></textarea>
+                <button class="btn" type="submit">Add</button>
+            </form>
+
+            {{-- Not working --}}
+            <div class="errors">
+                @if($errors->any())
+                <div class="callout error">
+                    <ul>
+                        @foreach($errors as $error)
+                            <li>{{$error}}</li>
+                        @endforeach
+                    </ul>
                 </div>
+                @endif
             </div>
+
         </div>
     </body>
 </html>

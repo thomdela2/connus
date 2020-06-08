@@ -15,13 +15,11 @@
         </header>
         <a class="add-btn" href="{{route('overviewfaq')}}">return</a>
         <div class="faq-container">
-            <div class="faq">
-                <input type="text" name="title" id="input-title" placeholder="Vraag">
-                <textarea name="content" id="" cols="30" rows="10" id="input-content">Antwoord</textarea>
-                <div class="edit-btn">
-                    <a class="btn" href="{{route('overviewfaq')}}">Add</a>
-                </div>
-            </div>
+        <form class="faq" action="{{ route('savefaq') }}" method="post">
+                <input type="text" name="question" id="input-question" placeholder="Vraag">
+                <textarea placeholder="Anrwoord" name="answer" id="input-answer" cols="30" rows="10" id="input-content"></textarea>
+                <button class="btn" type="submit">Add</button>
+            </form>
         </div>
     </body>
 </html>

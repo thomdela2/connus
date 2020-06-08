@@ -78,6 +78,16 @@ textarea {
   color: black;
 }
 
+button {
+  background: none;
+  border: none;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 h1 {
   font-family: tenon, sans-serif;
   font-style: normal;
@@ -112,6 +122,26 @@ input::-ms-input-placeholder {
 }
 
 input::placeholder {
+  color: black;
+}
+
+textarea::-webkit-input-placeholder {
+  color: black;
+}
+
+textarea::-moz-placeholder {
+  color: black;
+}
+
+textarea:-ms-input-placeholder {
+  color: black;
+}
+
+textarea::-ms-input-placeholder {
+  color: black;
+}
+
+textarea::placeholder {
   color: black;
 }
 

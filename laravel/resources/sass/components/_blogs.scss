@@ -55,6 +55,16 @@ input, textarea {
     color: black;
 }
 
+button {
+    background: none;
+    border: none;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 h1 {
     @include backoffice-title();
     margin-bottom: $title-margin;
@@ -65,3 +75,4 @@ h2 {
 
 /* @STATES */
 input::placeholder { color: black; }
+textarea::placeholder { color: black; }

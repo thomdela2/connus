@@ -10,6 +10,17 @@
 
     </head>
     <body>
-        Hier komen de FAQ
+        <div class="blog-container">
+
+            @foreach ($faqs as $faq)
+
+            <div class="blog">
+                <h1>{{ $faq->question }}</h1>
+                <h2>{{ $faq->answer }}</2>
+            </div>
+
+            @endforeach
+
+        </div>
     </body>
 </html>

@@ -51,21 +51,16 @@ class BackofficeController extends Controller
 
     public function blogSave (Request $r) {
 
-        // dd($request->title);
-
         $r->validate([
             'title' => 'required|max:256',
             'content' => 'required|max:100,'
         ]);
 
-        // dd('Yessir we made it this far!');
         $data = [
             'title' => $r->title,
             'content' => $r->content,
         ];
-
         $blog = Blog::create($data);
-        // dd($blog);
 
         return redirect()->route('overviewblogs');
     }
@@ -76,6 +71,12 @@ class BackofficeController extends Controller
             'question' => 'required|max:600',
             'answer' => 'required|max:600,'
         ]);
+
+        $data = [
+            'question' => $r->question,
+            'answer' => $r->answer,
+        ];
+        $faq = Faq::create($data);
 
         return redirect()->route('overviewfaq');
     }

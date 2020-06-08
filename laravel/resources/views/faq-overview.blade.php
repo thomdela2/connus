@@ -16,7 +16,6 @@
         <a class="add-btn" href="{{route('editfaq')}}">Add</a>
         <div class="faq-container">
             @foreach ($faqs as $faq)
-
             <div class="blog">
                 <h1>{{$faq->question}}</h1>
                 <h2>{{$faq->answer}}</2>
@@ -25,7 +24,6 @@
                     <a class="btn">Delete</a>
                 </div>
             </div>
-
             @endforeach
         </div>
     </body>

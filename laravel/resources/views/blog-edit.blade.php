@@ -22,18 +22,6 @@
                 <button class="btn" type="submit">Add</button>
             </form>
 
-            {{-- Not working --}}
-            <div class="errors">
-                @if($errors->any())
-                <div class="callout error">
-                    <ul>
-                        @foreach($errors as $error)
-                            <li>{{$error}}</li>
-                        @endforeach
-                    </ul>
-                </div>
-                @endif
-            </div>
 
         </div>
     </body>

@@ -15,6 +15,7 @@ class FaqSeeder extends Seeder
         $faker = Faker\Factory::create();
 
         $faq = new Faq();
+
         $faq->question=$faker->sentence($nbWords = 6, $variableNbWords = true);
         $faq->answer=$faker->sentence($nbWords = 8, $variableNbWords = true);
 

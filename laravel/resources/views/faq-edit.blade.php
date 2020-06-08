@@ -16,8 +16,9 @@
         <a class="add-btn" href="{{route('overviewfaq')}}">return</a>
         <div class="faq-container">
         <form class="faq" action="{{ route('savefaq') }}" method="post">
+                @csrf
                 <input type="text" name="question" id="input-question" placeholder="Vraag">
-                <textarea placeholder="Anrwoord" name="answer" id="input-answer" cols="30" rows="10" id="input-content"></textarea>
+                <textarea placeholder="Antwoord" name="answer" id="input-answer" cols="30" rows="10" id="input-answer"></textarea>
                 <button class="btn" type="submit">Add</button>
             </form>
         </div>

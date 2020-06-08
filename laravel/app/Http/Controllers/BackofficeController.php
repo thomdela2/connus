@@ -24,8 +24,8 @@ class BackofficeController extends Controller
         return view('blog-edit');
     }
 
-    public function blogEdit () {
-        return view('blog-edit');
+    public function blogEdit ($id) {
+        return view('blog-edit', []);
     }
 
 
@@ -45,8 +45,8 @@ class BackofficeController extends Controller
         return view('faq-edit');
     }
 
-    public function faqEdit () {
-        return view('faq-edit');
+    public function faqEdit ($id) {
+        return view('faq-edit', []);
     }
 
     public function blogSave (Request $r) {

@@ -13,14 +13,14 @@
         <header>
             <h1>Header</h1>
         </header>
-        <a class="add-btn" href="{{route('editfaq')}}">Add</a>
+        <a class="add-btn" href="{{route('addfaq')}}">Add</a>
         <div class="faq-container">
             @foreach ($faqs as $faq)
             <div class="blog">
                 <h1>{{$faq->question}}</h1>
                 <h2>{{$faq->answer}}</2>
                 <div class="faq-btn">
-                    <a class="btn" href="{{route('editfaq')}}">Edit</a>
+                    <a class="btn" href="{{route('editfaq', $faq->id)}}">Edit</a>
                     <a class="btn">Delete</a>
                 </div>
             </div>

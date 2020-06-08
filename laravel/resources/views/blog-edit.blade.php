@@ -21,8 +21,6 @@
                 <textarea placeholder="Inhoud" name="content" id="input-content" cols="30" rows="10" id="input-content"></textarea>
                 <button class="btn" type="submit">Add</button>
             </form>
-
-
         </div>
     </body>
 </html>

@@ -20,7 +20,7 @@
                 <h1>{{ $blog->title }}</h1>
                 <h2>{{ $blog->content }}</2>
                 <div class="blog-btn">
-                    <a class="btn" href="{{route('editblogs')}}">Edit</a>
+                    <a class="btn" href="{{route('editblogs', $blog->id)}}">Edit</a>
                     <a class="btn">Delete</a>
                 </div>
             </div>

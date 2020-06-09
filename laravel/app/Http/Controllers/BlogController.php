@@ -17,4 +17,46 @@ class BlogController extends Controller
         ]);
     }
 
+
+    public function getIndex () {
+
+        $blogs = Blog::get();
+
+        return view('blog-overview', [
+            'blogs' => $blogs,
+        ]);
+    }
+
+    public function getCreate () {
+
+        return view('blog-edit', [
+            'blog' => null,
+        ]);
+    }
+
+    public function getEdit (Blog $blog) {
+
+        // dd($blog);
+
+        return view('blog-edit', [
+            'blog' => $blog,
+        ]);
+    }
+
+    public function postSave (Request $r) {
+
+        $r->validate([
+            'title' => 'required|max:256',
+            'content' => 'required|max:100,'
+        ]);
+
+        $data = [
+            'title' => $r->title,
+            'content' => $r->content,
+        ];
+        $blog = Blog::create($data);
+
+        return redirect()->route('overviewblogs');
+    }
+
 }

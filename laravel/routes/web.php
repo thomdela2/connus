@@ -28,12 +28,12 @@ Route::get('/faq', 'FaqController@home')->name('faq');
 
 
 
-Route::get('login/faq', 'BackofficeController@faqoverview')->name('overviewfaq');
-Route::get('login/faq/edit/{id}', 'BackofficeController@faqedit')->name('editfaq');
-Route::get('login/faq/add', 'BackofficeController@faqadd')->name('addfaq');
-Route::post('login/faq/save', 'BackofficeController@faqsave')->name('savefaq');
+Route::get('login/faq', 'FaqController@getIndex')->name('overviewfaq');
+Route::get('login/faq/edit/{id}', 'FaqController@getEdit')->name('editfaq');
+Route::get('login/faq/add', 'FaqController@getCreate')->name('addfaq');
+Route::post('login/faq/save', 'FaqController@postSave')->name('savefaq');
 
-Route::get('login/blogs', 'BackofficeController@blogoverview')->name('overviewblogs');
-Route::get('login/blogs/edit/{id}', 'BackofficeController@blogedit')->name('editblogs');
-Route::get('login/blogs/add', 'BackofficeController@blogadd')->name('addblogs');
-Route::post('login/blogs/save', 'BackofficeController@blogsave')->name('saveblog');
+Route::get('login/blogs', 'BlogController@getIndex')->name('overviewblogs');
+Route::get('login/blogs/edit/{id}', 'BlogController@getEdit')->name('editblogs');
+Route::get('login/blogs/add', 'BlogController@getCreate')->name('addblogs');
+Route::post('login/blogs/save', 'BlogController@postSave')->name('saveblog');

@@ -43,6 +43,11 @@ class BlogController extends Controller
         ]);
     }
 
+    public function getDeleted (Blog $blog) {
+        $blog->delete();
+        return redirect()->route('overviewblogs');
+    }
+
     public function postSave (Request $r) {
 
         $validationRules = [

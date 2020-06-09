@@ -17,6 +17,11 @@
         <div class="blog-container">
             <form class="blog" action="{{ route('saveblog') }}" method="post">
                 @csrf
+
+                @if($blog)
+            <input type="hidden" name="id" value="{{ $blog->id }}">
+                @endif
+
             <input type="text" value="{{ old('title', ($blog ? $blog->title : 'Titel')) }}" name="title" id="input-title">
                 <textarea value="" name="content" id="input-content" cols="30" rows="10" id="input-content">{{old('content', ($blog ? $blog->content : 'Inhoud'))}}</textarea>
                 <button class="btn" type="submit">
@@ -30,5 +35,3 @@
         </div>
     </body>
 </html>
-
-{{-- @TODO -> $blog dumpen geeft lege array --}}

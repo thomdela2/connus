@@ -15,11 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@influencers')->name('influencers');
-
 Route::get('/brand', 'HomeController@brands')->name('brands');
-
 Route::get('/brand/advertising', 'HomeController@brand_ads')->name('brand-ads');
 Route::get('/influencer/advertising', 'HomeController@influencer_ads')->name('infuencer-ads');
+
 
 Route::get('/blogs', 'BlogController@home')->name('blogs');
 

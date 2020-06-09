@@ -21,11 +21,18 @@ class BackofficeController extends Controller
 
     public function blogAdd () {
 
-        return view('blog-edit');
+        return view('blog-edit', [
+            'blog' => null,
+        ]);
     }
 
-    public function blogEdit ($id) {
-        return view('blog-edit', []);
+    public function blogEdit (Blog $blog) {
+
+        // dd($blog);
+
+        return view('blog-edit', [
+            'blog' => $blog,
+        ]);
     }
 
 

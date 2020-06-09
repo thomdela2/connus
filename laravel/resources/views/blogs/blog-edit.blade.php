@@ -17,8 +17,8 @@
         <div class="blog-container">
             <form class="blog" action="{{ route('saveblog') }}" method="post">
                 @csrf
-            <input type="text" value="{{ old('title', ($blog ? $blog->title : '')) }}" name="title" id="input-title">
-                <textarea value="{{old('content', ($blog ? $blog->content : ''))}} " name="content" id="input-content" cols="30" rows="10" id="input-content"></textarea>
+            <input type="text" value="{{ old('title', ($blog ? $blog->title : 'Titel')) }}" name="title" id="input-title">
+                <textarea value="" name="content" id="input-content" cols="30" rows="10" id="input-content">{{old('content', ($blog ? $blog->content : 'Inhoud'))}}</textarea>
                 <button class="btn" type="submit">
                     @if(!$blog)
                     Add

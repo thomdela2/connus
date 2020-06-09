@@ -54,6 +54,7 @@ class BlogController extends Controller
             'title' => $r->title,
             'content' => $r->content,
         ];
+
         $blog = Blog::create($data);
 
         return redirect()->route('overviewblogs');

@@ -20,7 +20,6 @@ class FaqController extends Controller
     public function getIndex () {
 
         $faqs = Faq::get();
-        // dd($faqs);
 
         return view('faqs.faq-overview', [
             'faqs' => $faqs,

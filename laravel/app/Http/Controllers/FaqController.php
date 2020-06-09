@@ -11,7 +11,7 @@ class FaqController extends Controller
 
         $faqs = Faq::get();
 
-        return view('faq', [
+        return view('faqs.faq', [
             'faqs'=>$faqs,
         ]);
     }
@@ -22,18 +22,18 @@ class FaqController extends Controller
         $faqs = Faq::get();
         // dd($faqs);
 
-        return view('faq-overview', [
+        return view('faqs.faq-overview', [
             'faqs' => $faqs,
         ]);
     }
 
     public function getCreate () {
 
-        return view('faq-edit');
+        return view('faqs.faq-edit');
     }
 
     public function getEdit ($id) {
-        return view('faq-edit', []);
+        return view('faqs.faq-edit', []);
     }
 
     public function postSave (Request $r) {

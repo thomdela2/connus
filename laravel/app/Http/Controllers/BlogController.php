@@ -12,7 +12,7 @@ class BlogController extends Controller
         $blogs = Blog::get();
         // dd($blogs);
 
-        return view('blog', [
+        return view('blogs.blog', [
             'blogs'=>$blogs,
         ]);
     }
@@ -22,14 +22,14 @@ class BlogController extends Controller
 
         $blogs = Blog::get();
 
-        return view('blog-overview', [
+        return view('blogs.blog-overview', [
             'blogs' => $blogs,
         ]);
     }
 
     public function getCreate () {
 
-        return view('blog-edit', [
+        return view('blogs.blog-edit', [
             'blog' => null,
         ]);
     }
@@ -38,7 +38,7 @@ class BlogController extends Controller
 
         // dd($blog);
 
-        return view('blog-edit', [
+        return view('blogs.blog-edit', [
             'blog' => $blog,
         ]);
     }

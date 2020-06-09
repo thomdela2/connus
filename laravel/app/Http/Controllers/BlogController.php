@@ -7,16 +7,6 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
-    public function home () {
-
-        $blogs = Blog::get();
-        // dd($blogs);
-
-        return view('blogs.blog', [
-            'blogs'=>$blogs,
-        ]);
-    }
-
 
     public function getIndex () {
 

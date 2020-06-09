@@ -8,15 +8,6 @@ use Illuminate\Http\Request;
 
 class FaqController extends Controller
 {
-    public function home() {
-
-        $faqs = Faq::get();
-
-        return view('faqs.faq', [
-            'faqs'=>$faqs,
-        ]);
-    }
-
 
     public function getIndex () {
 

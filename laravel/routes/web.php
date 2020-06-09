@@ -20,13 +20,10 @@ Route::get('/brand/advertising', 'HomeController@brand_ads')->name('brand-ads');
 Route::get('/influencer/advertising', 'HomeController@influencer_ads')->name('infuencer-ads');
 
 
-Route::get('/blogs', 'BlogController@home')->name('blogs');
+Route::get('/blogs', 'HomeController@blogs')->name('blogs');
+Route::get('/faq', 'HomeController@faq')->name('faq');
 
 Route::get('/team', 'TeamController@home')->name('team');
-
-Route::get('/faq', 'FaqController@home')->name('faq');
-
-
 
 Route::get('login/faq', 'FaqController@getIndex')->name('overviewfaq');
 Route::get('login/faq/edit/{faq}', 'FaqController@getEdit')->name('editfaq');

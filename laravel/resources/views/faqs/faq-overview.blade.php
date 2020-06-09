@@ -21,7 +21,7 @@
                 <h2>{{$faq->answer}}</2>
                 <div class="faq-btn">
                     <a class="btn" href="{{route('editfaq', $faq->id)}}">Edit</a>
-                    <a class="btn">Delete</a>
+                    <a class="btn" href="{{route('deletefaq', $faq->id)}}">Delete</a>
                 </div>
             </div>
             @endforeach

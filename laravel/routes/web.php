@@ -30,6 +30,7 @@ Route::get('/faq', 'FaqController@home')->name('faq');
 
 Route::get('login/faq', 'FaqController@getIndex')->name('overviewfaq');
 Route::get('login/faq/edit/{faq}', 'FaqController@getEdit')->name('editfaq');
+Route::get('login/faq/delete/{faq}', 'FaqController@getDeleted')->name('deletefaq');
 Route::get('login/faq/add', 'FaqController@getCreate')->name('addfaq');
 Route::post('login/faq/save', 'FaqController@postSave')->name('savefaq');
 

@@ -17,9 +17,20 @@
         <div class="faq-container">
         <form class="faq" action="{{ route('savefaq') }}" method="post">
                 @csrf
-                <input type="text" name="question" id="input-question" placeholder="Vraag">
-                <textarea placeholder="Antwoord" name="answer" id="input-answer" cols="30" rows="10" id="input-answer"></textarea>
-                <button class="btn" type="submit">Add</button>
+
+                @if($faq)
+                <input type="hidden" name="id" value="{{ $faq->id }}">
+                    @endif
+
+                <input type="text" name="question" id="input-question" value="{{ old('question', ($faq ? $faq->question : 'Vraag')) }}">
+                <textarea placeholder="" name="answer" id="input-answer" cols="30" rows="10" id="input-answer">{{ old('answer', ($faq ? $faq->answer : 'Antwoord')) }}</textarea>
+                <button class="btn" type="submit">
+                    @if(!$faq)
+                    Add
+                    @else
+                    Edit
+                    @endif
+                </button>
             </form>
         </div>
     </body>

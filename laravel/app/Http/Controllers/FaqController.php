@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Blog;
 use App\Faq;
 use Illuminate\Http\Request;
 
@@ -28,25 +29,52 @@ class FaqController extends Controller
 
     public function getCreate () {
 
-        return view('faqs.faq-edit');
+        return view('faqs.faq-edit', [
+            'faq' => null,
+        ]);
     }
 
-    public function getEdit ($id) {
-        return view('faqs.faq-edit', []);
+    public function getEdit (Faq $faq) {
+
+        return view('faqs.faq-edit', [
+            'faq' => $faq,
+        ]);
+    }
+
+    public function getDeleted (Faq $faq) {
+
+        $faq->delete();
+        return redirect()->route('overviewfaq');
     }
 
     public function postSave (Request $r) {
 
-        $r->validate([
+        $validationRules = [
             'question' => 'required|max:600',
             'answer' => 'required|max:600,'
-        ]);
+        ];
+
+        if($r->id) {
+            $validationRules['question'] = 'required|max:600' . $r->id;
+            $validationRules['answer'] = 'required|max:600' . $r->id;
+        } else {
+            $validationRules['question'] = 'required|max:600';
+            $validationRules['answer'] = 'required|max:600';
+        }
+
+        $r->validate($validationRules);
 
         $data = [
             'question' => $r->question,
             'answer' => $r->answer,
         ];
-        $faq = Faq::create($data);
+
+        if($r->id) {
+            $faq = Faq::where('id', $r->id)->first();
+            $faq->update($data);
+        } else {
+            $faq = Faq::create($data);
+        }
 
         return redirect()->route('overviewfaq');
     }

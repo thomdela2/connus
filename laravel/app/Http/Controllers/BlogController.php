@@ -36,8 +36,6 @@ class BlogController extends Controller
 
     public function getEdit (Blog $blog) {
 
-        // dd($blog);
-
         return view('blogs.blog-edit', [
             'blog' => $blog,
         ]);

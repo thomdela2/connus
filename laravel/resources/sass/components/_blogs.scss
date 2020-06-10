@@ -1,15 +1,17 @@
 .blog-container {
     height: 100%;
-    width: 100vw;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-top: 200px;
 }
 
 .blog {
     height: 100%;
-    width: 74vw;
+    width: 70vw;
     background-color: $white;
     @include box();
     display: flex;
@@ -44,6 +46,21 @@
     .btn {
         margin: $btn-height;
     }
+}
+
+.blog-left {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.blog-left a {
+    font-family: $fontfam;
+    font-size: $fontsize-backoffice-content;
+    font-weight: $fontweight-light;
+    margin-right: 35px;
+    color: $regular-blue;
 }
 
 input, textarea {

@@ -10,7 +10,7 @@
 <body class="container">
     <nav>
         <div class="left">
-            <img class="logo--icon" src="images\connus.icon.white.png" alt="logo">
+            <img class="logo--icon" href="{{ route('influencers') }}" src="images\connus.icon.white.png" alt="logo">
             <a id="name" href="{{ route('influencers') }}">Connus</a>
             <a href="{{ route('blogs') }}">Blogs</a>
             <a href="{{ route('team') }}">Team</a>
@@ -21,5 +21,8 @@
             <a href="{{ route('brands') }}">I am a brand</a>
         </div>
     </nav>
+    <div class="main">
+
+    </div>
 </body>
 </html>

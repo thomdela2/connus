@@ -1,4 +1,8 @@
 // @FRONTOFFICE
+*, body {
+    margin: 0;
+    padding: 0;
+}
 
 .container {
     width: 100%;
@@ -6,17 +10,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: $regular-blue;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav {
-    width: 100%;
+    width: 74vw;
     height: 100px;
     display: flex;
+    position: absolute;
 }
 
 .left {
-    // background-color: greenyellow;
     width: 75%;
     height: 100%;
     display: flex;
@@ -30,11 +37,7 @@ nav {
     color: $white;
 }
 
-a #name { font-weight: $fontweight-bold; }
-
-
 .right {
-    // background-color: red;
     width: 25%;
     height: 100%;
     display: flex;
@@ -50,6 +53,16 @@ a #name { font-weight: $fontweight-bold; }
     color: $white;
 }
 
+.main {
+    height: 120%;
+    width: 100%;
+    background-color: $regular-blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
 /* IMAGES */
 .logo--icon {
     width: 35px;
@@ -59,3 +72,9 @@ a #name { font-weight: $fontweight-bold; }
 .line--icon {
     width: 35px;
 }
+
+#name { font-weight: $fontweight-bold; }
+
+
+/* STATES */
+a:hover {text-decoration: none;}

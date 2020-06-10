@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://use.typekit.net/gpk2rpd.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -34,7 +34,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -66,7 +66,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -6405,7 +6405,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6530,7 +6530,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -10931,5 +10931,261 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+/* @COLORS */
+
+/* @FONTS */
+
+/* @PADDING & @MARGIN */
+
+.blog-container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog {
+  height: 100%;
+  width: 76vw;
+  background-color: #51e9af;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.add-btn {
+  margin-left: 10vw;
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  padding: 4px 6px 4px 6px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  padding: 4px 6px 4px 6px;
+}
+
+.blog-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blog-btn .btn {
+  margin: 4px;
+}
+
+.edit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-btn .btn {
+  margin: 4px;
+}
+
+input,
+textarea {
+  margin: 4px;
+  padding: 4px 6px 4px 6px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #161616;
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+  color: black;
+}
+
+button {
+  background: none;
+  border: none;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+}
+
+/* @STATES */
+
+input::-webkit-input-placeholder {
+  color: black;
+}
+
+input::-moz-placeholder {
+  color: black;
+}
+
+input:-ms-input-placeholder {
+  color: black;
+}
+
+input::-ms-input-placeholder {
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+}
+
+textarea::-webkit-input-placeholder {
+  color: black;
+}
+
+textarea::-moz-placeholder {
+  color: black;
+}
+
+textarea:-ms-input-placeholder {
+  color: black;
+}
+
+textarea::-ms-input-placeholder {
+  color: black;
+}
+
+textarea::placeholder {
+  color: black;
+}
+
+.faq-container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq {
+  height: 100%;
+  width: 76vw;
+  background-color: #51e9af;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn {
+  margin-left: 10vw;
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  padding: 4px 6px 4px 6px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  padding: 4px 6px 4px 6px;
+}
+
+.faq-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.faq-btn .btn {
+  margin: 4px;
+}
+
+.edit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-btn .btn {
+  margin: 4px;
+}
+
+input,
+textarea {
+  margin: 4px;
+  padding: 4px 6px 4px 6px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #161616;
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+  color: black;
+}
+
+h1 {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+}
+
+/* @STATES */
+
+input::-webkit-input-placeholder {
+  color: black;
+}
+
+input::-moz-placeholder {
+  color: black;
+}
+
+input:-ms-input-placeholder {
+  color: black;
+}
+
+input::-ms-input-placeholder {
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.navigationLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+.navigationLeft a {
+  color: #161616;
 }
 

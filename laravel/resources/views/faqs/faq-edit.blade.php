@@ -10,9 +10,6 @@
 
     </head>
     <body>
-        <header>
-            <h1>Header</h1>
-        </header>
         <a class="add-btn" href="{{route('overviewfaq')}}">return</a>
         <div class="faq-container">
         <form class="faq" action="{{ route('savefaq') }}" method="post">

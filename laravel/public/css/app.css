@@ -11251,14 +11251,27 @@ a {
   color: #EBF2F5;
 }
 
-.maincontent {
-  height: 120%;
+.background-images {
+  height: 750px;
   width: 100%;
-  background-color: #008FFF;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
+  position: fixed;
+}
+
+.header--background {
+  width: 100%;
+}
+
+.bassline--background {
+  width: 100%;
+  margin-top: -180px;
+}
+
+.infographic--background {
+  width: 100%;
+  margin-top: -180px;
 }
 
 /* IMAGES */

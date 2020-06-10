@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="maincontent">
-
+        <img class="header--background" src="images\backgrounds\header.png" alt="header--background">
     </div>
 </body>
 </html>

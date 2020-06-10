@@ -21,8 +21,11 @@
             <a href="{{ route('brands') }}">I am a brand</a>
         </div>
     </div>
-    <div class="maincontent">
-
+    <div class="background-images">
+        <img class="header--background" src="images\backgrounds\header.png" alt="header--background">
+        <img class="bassline--background" src="images\backgrounds\bassline.png" alt="bassline--background">
+        <img class="infographic--background" src="images\backgrounds\infographic.png" alt="infographic--background">
     </div>
+
 </body>
 </html>

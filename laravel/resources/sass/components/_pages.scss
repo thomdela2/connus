@@ -53,14 +53,29 @@ a {
     color: $white;
 }
 
-.maincontent {
-    height: 120%;
+.background-images {
+    height: 750px;
     width: 100%;
-    background-color: $regular-blue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 200px;
+    position: fixed;
+    // padding-top: 200px;
+    // background-image: linear-gradient(to bottom right, $regular-blue, $dark-blue);
+}
+
+.header--background {
+    width: 100%;
+}
+
+.bassline--background {
+    width: 100%;
+    margin-top: -180px;
+}
+
+.infographic--background {
+    width: 100%;
+    margin-top: -180px;
 }
 
 /* IMAGES */
@@ -74,7 +89,6 @@ a {
 }
 
 #name { font-weight: $fontweight-bold; }
-
 
 /* STATES */
 a:hover {text-decoration: none;}

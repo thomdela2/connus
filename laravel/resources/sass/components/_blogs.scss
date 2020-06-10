@@ -9,12 +9,13 @@
 
 .blog {
     height: 100%;
-    width: 76vw;
-    background-color: $test;
+    width: 74vw;
+    background-color: $white;
     @include box();
     display: flex;
     flex-direction: column;
     margin-bottom: $box-height;
+    border-radius: $radius;
 }
 
 .add-btn {

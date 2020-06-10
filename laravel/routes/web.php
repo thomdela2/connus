@@ -40,4 +40,4 @@ Route::post('login/blogs/save', 'BlogController@postSave')->name('saveblog');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');

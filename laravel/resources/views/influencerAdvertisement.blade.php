@@ -7,19 +7,19 @@
     <title>Influencer - Advertisement | Connus</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body class="container">
-    <nav>
-        <div class="left">
+<body class="overview">
+    <div class="navigationcontainer">
+        <div class="leftnav">
             <img src="..\public\images\connus.icon.blue.png" alt="logo">
             <p><a href="{{ route('influencers') }}">Connus</a></p>
             <p><a href="{{ route('blogs') }}">Blogs</a></p>
             <p><a href="{{ route('team') }}">Team</a></p>
         <p><a href="{{ route('faq') }}">FAQ</a></p>
         </div>
-        <div class="right">
-            <img src="" alt="stripe">
+        <div class="rightnav">
+            <img class="line--icon" src="images\connus.line.white.png" alt="stripe">
             <p><a href="{{ route('brands') }}">I am a brand</a></p>
         </div>
-    </nav>
+    </div>
 </body>
 </html>

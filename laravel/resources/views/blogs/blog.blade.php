@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     </head>
-    <body class="container">
-        <nav>
+    <body class="overview">
+        <div class="navigationcontainer">
             <div class="blog-left">
                 <img class="logo--icon" href="{{ route('influencers') }}" src="images\connus.icon.blue.png" alt="logo">
                 <a id="name" href="{{ route('influencers') }}">Connus</a>
@@ -22,7 +22,7 @@
                 {{-- <img src="" alt="stripe"> --}}
                 {{-- <p><a href="{{ route('influencers') }}">I am an influencer</a></p> --}}
             </div>
-        </nav>
+        </div>
 
         <div class="blog-container">
 

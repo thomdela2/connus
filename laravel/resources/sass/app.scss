@@ -1,5 +1,8 @@
-@import './abstracts/main';
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-*, body {margin: 0; padding: 0;}
+// Variables
+@import 'variables';
 
-@import './components/main';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';

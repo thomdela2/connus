@@ -23,7 +23,7 @@
     margin-bottom: $box-height;
 }
 
-.btn {
+.stylebtn {
     @include backoffice-title();
     @include btn();
 }

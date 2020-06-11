@@ -6,12 +6,12 @@
     flex-direction: column;
     align-items: center;
 
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 .blog {
     height: 100%;
-    width: 70vw;
+    width: 73vw;
     background-color: $white;
     @include box();
     display: flex;
@@ -27,7 +27,7 @@
     margin-bottom: $box-height;
 }
 
-.btn {
+.stylebtn {
     @include backoffice-title();
     @include btn();
 }

@@ -7,8 +7,8 @@
                     <h1>{{$faq->question}}</h1>
                     <h2>{{$faq->answer}}</2>
                     <div class="faq-btn">
-                        <a class="btn" href="{{route('editfaq', $faq->id)}}">Edit</a>
-                        <a class="btn" href="{{route('deletefaq', $faq->id)}}">Delete</a>
+                        <a class="stylebtn" href="{{route('editfaq', $faq->id)}}">Edit</a>
+                        <a class="stylebtn" href="{{route('deletefaq', $faq->id)}}">Delete</a>
                     </div>
                 </div>
                 @endforeach

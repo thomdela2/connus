@@ -21,8 +21,8 @@
             {{-- <p><a href="{{ route('influencers') }}">I am an influencer</a></p> --}}
         </div>
     </div>
-    <div class="maincontent">
-
+    <div class="background-images">
+        <img class="header--background" src="images\backgrounds\header.png" alt="header--background">
     </div>
 </body>
 </html>

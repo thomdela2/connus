@@ -23,6 +23,10 @@
     </div>
     <div class="maincontent">
         <img class="header--background" src="images\backgrounds\header.png" alt="header--background">
+        <img class="bassline--background" src="images\backgrounds\bassline.png" alt="bassline--background">
+        <img class="infographic--background" src="images\backgrounds\infographic--purple.png" alt="infographic--background">
+        <img class="main--background" src="images\backgrounds\main--brand.png" alt="main--brand">
+        <img class="footer--background" src="images\backgrounds\footer.png" alt="footer--background">
     </div>
 </body>
 </html>

@@ -59,7 +59,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    // position: fixed;
     // padding-top: 200px;
     // background-image: linear-gradient(to bottom right, $regular-blue, $dark-blue);
 }
@@ -76,6 +76,16 @@ a {
 .infographic--background {
     width: 100%;
     margin-top: -180px;
+}
+
+.main--background {
+    width: 100%;
+    margin-top: -360px;
+}
+
+.footer--background {
+    width: 100%;
+    margin-top: -300px;
 }
 
 /* IMAGES */

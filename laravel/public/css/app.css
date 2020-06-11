@@ -11257,7 +11257,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: fixed;
 }
 
 .header--background {
@@ -11272,6 +11271,16 @@ a {
 .infographic--background {
   width: 100%;
   margin-top: -180px;
+}
+
+.main--background {
+  width: 100%;
+  margin-top: -360px;
+}
+
+.footer--background {
+  width: 100%;
+  margin-top: -300px;
 }
 
 /* IMAGES */

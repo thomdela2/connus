@@ -25,6 +25,8 @@
         <img class="header--background" src="images\backgrounds\header.png" alt="header--background">
         <img class="bassline--background" src="images\backgrounds\bassline.png" alt="bassline--background">
         <img class="infographic--background" src="images\backgrounds\infographic.png" alt="infographic--background">
+        <img class="main--background" src="images\backgrounds\main--influencer.png" alt="main--influencer">
+        <img class="footer--background" src="images\backgrounds\footer.png" alt="footer--background">
     </div>
 
 </body>

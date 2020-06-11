@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Blog | Connus</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <title>Blog | Connus</title>
 
-    </head>
-    <body class="overview">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+</head>
+
+<body>
+    <div class="desktop">
         <div class="navigationcontainer">
-            <div class="blog-left">
-                <img class="logo--icon" href="{{ route('influencers') }}" src="images\connus.icon.blue.png" alt="logo">
+            <div class="leftnav">
+                <img class="logo--icon" href="{{ route('influencers') }}" src="images\connus.icon.white.png" alt="logo">
                 <a id="name" href="{{ route('influencers') }}">Connus</a>
                 <a href="{{ route('blogs') }}">Blogs</a>
                 <a href="{{ route('team') }}">Team</a>
-            <a href="{{ route('faq') }}">FAQ</a>
+                <a href="{{ route('faq') }}">FAQ</a>
             </div>
-            <div class="right">
+            <div class="rightnav">
                 {{-- <img src="" alt="stripe"> --}}
                 {{-- <p><a href="{{ route('influencers') }}">I am an influencer</a></p> --}}
             </div>
@@ -36,5 +39,7 @@
             @endforeach
 
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

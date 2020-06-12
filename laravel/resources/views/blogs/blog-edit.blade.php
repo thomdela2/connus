@@ -21,7 +21,7 @@
 
             <input type="text" value="{{ old('title', ($blog ? $blog->title : 'Titel')) }}" name="title" id="input-title">
                 <textarea value="" name="content" id="input-content" cols="30" rows="10" id="input-content">{{old('content', ($blog ? $blog->content : 'Inhoud'))}}</textarea>
-                <button class="btn" type="submit">
+                <button class="stylebtn" type="submit">
                     @if(!$blog)
                     Add
                     @else

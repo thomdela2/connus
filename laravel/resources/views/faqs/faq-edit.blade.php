@@ -11,8 +11,8 @@
     </head>
     <body>
         <a class="add-btn" href="{{route('overviewfaq')}}">return</a>
-        <div class="faq-container">
-        <form class="faq" action="{{ route('savefaq') }}" method="post">
+        <div class="blog-container">
+        <form class="blog" action="{{ route('savefaq') }}" method="post">
                 @csrf
 
                 @if($faq)
@@ -21,7 +21,7 @@
 
                 <input type="text" name="question" id="input-question" value="{{ old('question', ($faq ? $faq->question : 'Vraag')) }}">
                 <textarea placeholder="" name="answer" id="input-answer" cols="30" rows="10" id="input-answer">{{ old('answer', ($faq ? $faq->answer : 'Antwoord')) }}</textarea>
-                <button class="btn" type="submit">
+                <button class="stylebtn" type="submit">
                     @if(!$faq)
                     Add
                     @else

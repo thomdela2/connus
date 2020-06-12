@@ -14,8 +14,8 @@
 <body>
     <div class="desktop">
         <div class="navigationcontainer">
-            <div class="leftnav">
-                <img class="logo--icon" href="{{ route('influencers') }}" src="images\connus.icon.white.png" alt="logo">
+            <div class="leftnav blognav">
+                <img class="logo--icon" href="{{ route('influencers') }}" src="images\connus.icon.blue.png" alt="logo">
                 <a id="name" href="{{ route('influencers') }}">Connus</a>
                 <a href="{{ route('blogs') }}">Blogs</a>
                 <a href="{{ route('team') }}">Team</a>

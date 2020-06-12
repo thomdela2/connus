@@ -11418,6 +11418,10 @@ a:hover {
   font-size: 20pt;
 }
 
+.stats--influencer a {
+  color: #FFCB21;
+}
+
 .stats--influencer a:hover {
   color: #EFA517;
   cursor: pointer;
@@ -11427,6 +11431,35 @@ a:hover {
 .stats--influencer .stat--icon {
   margin: 4px 6px 4px 6px;
   color: #FFCB21;
+}
+
+.stats--brand {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBF2F5;
+  border-radius: 6px;
+  box-shadow: 18px 3px 81px -17px rgba(0, 0, 0, 0.644);
+  padding: 4px;
+}
+
+.stats--brand .bold {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.stats--brand a:hover {
+  color: #7708A7;
+  cursor: pointer;
+}
+
+.stats--brand .stat--info,
+.stats--brand .stat--icon {
+  margin: 4px 6px 4px 6px;
+  color: #BD19BE;
 }
 
 .stat--info {
@@ -11462,7 +11495,6 @@ a:hover {
   font-style: normal;
   font-weight: 800;
   font-size: 44pt;
-  color: #FFCB21;
   padding-right: 10px;
   padding-left: 10px;
   display: flex;
@@ -11497,7 +11529,7 @@ a:hover {
 .stat--msg {
   margin-top: 2300px;
   z-index: 4;
-  left: 28vw;
+  left: 27vw;
 }
 
 .stat--money {
@@ -11531,5 +11563,61 @@ a:hover {
   z-index: 4;
   right: 26vw;
   border-radius: 8px;
+}
+
+.stat--danone {
+  margin-top: 2000px;
+  z-index: 2;
+  left: 21vw;
+}
+
+.stat--tagmag {
+  margin-top: 2300px;
+  z-index: 4;
+  left: 24vw;
+}
+
+.stat--boardx {
+  margin-top: 2450px;
+  z-index: 4;
+  left: 32vw;
+}
+
+.stat--cake {
+  margin-top: 2080px;
+  z-index: 4;
+  right: 24vw;
+}
+
+.stat--breydel {
+  margin-top: 2400px;
+  z-index: 4;
+  right: 33vw;
+}
+
+/* IMAGES */
+
+.img {
+  margin: 6px 10px 6px 10px;
+}
+
+.danone {
+  height: 40px;
+}
+
+.tagmag {
+  height: 50px;
+}
+
+.breydel {
+  width: 50px;
+}
+
+.cake {
+  height: 50px;
+}
+
+.boardx {
+  height: 50px;
 }
 

@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand | Connus</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="https://kit.fontawesome.com/e9fc8806c8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -70,6 +71,42 @@
         </div>
 
         <img class="swipe--phone" src="images\swipe.png" alt="swipe">
+
+        <div class="stats--brand stat--danone">
+            <img class="img danone" src="images\icons\danone2purple.png" alt="Danone">
+        </div>
+
+        <div class="stats--brand stat--registratedBrands">
+            <i class="number stat--icon">103</i>
+            <a class="stat--info"><span>Merken zijn al</span><span class="bold">geregistreerd</span></a>
+        </div>
+
+        <div class="stats--brand stat--tagmag">
+            <img class="img tagmag" src="images\icons\tagmag.png" alt="TagMag">
+        </div>
+
+        <div class="stats--brand stat--boardx">
+            <img class="img boardx" src="images\icons\boardx-logo-p.png" alt="Breydel">
+        </div>
+
+        <div class="stats--brand stat--registratedinfluencers">
+            <i class="number stat--icon">93</i>
+            <a class="stat--info"><span>Influencers zijn al</span><span class="bold">geregistreerd</span></a>
+        </div>
+
+        <div class="stats--brand stat--cake">
+            <img class="img cake" src="images\icons\cake2.png" alt="cake">
+        </div>
+
+        <div class="stats--brand stat--createdMatches">
+            <i class="number stat--icon">186</i>
+            <a class="stat--info"><span>Gecreeërde</span><span class="bold">matches</span></a>
+        </div>
+
+        <div class="stats--brand stat--breydel">
+            <img class="img breydel" src="images\icons\breydel.png" alt="boardx">
+        </div>
+
     </div>
 </body>
 

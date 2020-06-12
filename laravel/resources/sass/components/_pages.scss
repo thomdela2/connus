@@ -190,10 +190,30 @@ a:hover {text-decoration: none;}
     .bold {
         @include backoffice-title;
     }
+    a {color: $regular-yellow;}
     a:hover{color: $dark-yellow; cursor: pointer;}
     .stat--info, .stat--icon {
         margin: 4px 6px 4px 6px;
         color: $regular-yellow;
+    }
+}
+
+.stats--brand {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    border-radius: 6px;
+    box-shadow: 18px 3px 81px -17px rgba(0, 0, 0, 0.644);
+    padding: 4px;
+    .bold {
+        @include backoffice-title;
+    }
+    a:hover{color: $dark-purple; cursor: pointer;}
+    .stat--info, .stat--icon {
+        margin: 4px 6px 4px 6px;
+        color: $regular-purple;
     }
 }
 
@@ -226,7 +246,7 @@ a:hover {text-decoration: none;}
 
 .number {
     @include subtitle-large();
-    color: $regular-yellow;
+    // color: $regular-yellow;
     padding-right: 10px;
     padding-left: 10px;
     display: flex;
@@ -260,7 +280,7 @@ a:hover {text-decoration: none;}
 .stat--msg {
     margin-top: 2300px;
     z-index: 4;
-    left: 28vw;
+    left: 27vw;
 }
 
 .stat--money {
@@ -295,3 +315,42 @@ a:hover {text-decoration: none;}
     right: 26vw;
     border-radius: 8px;
 }
+
+.stat--danone {
+    margin-top: 2000px;
+    z-index: 2;
+    left: 21vw;
+}
+
+.stat--tagmag {
+    margin-top: 2300px;
+    z-index: 4;
+    left: 24vw;
+}
+
+.stat--boardx {
+    margin-top: 2450px;
+    z-index: 4;
+    left: 32vw;
+}
+
+.stat--cake {
+    margin-top: 2080px;
+    z-index: 4;
+    right: 24vw;
+}
+
+.stat--breydel {
+    margin-top: 2400px;
+    z-index: 4;
+    right: 33vw;
+}
+
+/* IMAGES */
+.img {margin: 6px 10px 6px 10px;}
+
+.danone {height: 40px;}
+.tagmag {height: 50px;}
+.breydel {width: 50px;}
+.cake {height: 50px;}
+.boardx {height: 50px;}

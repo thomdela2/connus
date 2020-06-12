@@ -11282,6 +11282,16 @@ a {
   margin-top: -360px;
 }
 
+.adv--background {
+  width: 100%;
+  margin-top: -360px;
+}
+
+.section--background {
+  width: 100%;
+  margin-top: -360px;
+}
+
 .footer--background {
   width: 100%;
   margin-top: -300px;
@@ -11610,14 +11620,14 @@ a:hover {
 }
 
 .breydel {
-  width: 50px;
+  height: 60px;
 }
 
 .cake {
-  height: 50px;
+  height: 40px;
 }
 
 .boardx {
-  height: 50px;
+  height: 40px;
 }
 

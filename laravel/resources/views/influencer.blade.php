@@ -30,6 +30,8 @@
             <img class="bassline--background" src="images\backgrounds\bassline.png" alt="bassline--background">
             <img class="infographic--background" src="images\backgrounds\infographic.png" alt="infographic--background">
             <img class="main--background" src="images\backgrounds\main--influencer.png" alt="main--influencer">
+            <img class="adv--background" src="images\backgrounds\advertentie.png" alt="adv--brand">
+            <img class="section--background" src="images\backgrounds\lastsection.png" alt="lastsec--brand">
             <img class="footer--background" src="images\backgrounds\footer.png" alt="footer--background">
         </div>
 

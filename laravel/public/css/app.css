@@ -11340,6 +11340,9 @@ a:hover {
   font-style: normal;
   font-weight: 800;
   font-size: 50pt;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4em;
 }
 
 .subtitle {
@@ -11348,6 +11351,7 @@ a:hover {
   font-style: normal;
   font-weight: 200;
   font-size: 21pt;
+  line-height: 1.4em;
 }
 
 .download--btn {
@@ -11366,6 +11370,7 @@ a:hover {
   position: absolute;
   height: 600px;
   top: 1900px;
+  z-index: 1;
 }
 
 .bold {
@@ -11395,6 +11400,46 @@ a:hover {
   color: #008FFF;
 }
 
+.stats--influencer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBF2F5;
+  border-radius: 6px;
+  box-shadow: 18px 3px 81px -17px rgba(0, 0, 0, 0.644);
+  padding: 4px;
+}
+
+.stats--influencer .bold {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.stats--influencer a:hover {
+  color: #EFA517;
+  cursor: pointer;
+}
+
+.stats--influencer .stat--info,
+.stats--influencer .stat--icon {
+  margin: 4px 6px 4px 6px;
+  color: #FFCB21;
+}
+
+.stat--info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  margin-left: 6px;
+  line-height: 1.4em;
+  padding-right: 10px;
+}
+
 .section--third {
   width: 80vw;
   position: absolute;
@@ -11412,6 +11457,21 @@ a:hover {
   color: #EBF2F5;
 }
 
+.number {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44pt;
+  color: #FFCB21;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 .sub-center {
   height: 100%;
   width: 100%;
@@ -11424,5 +11484,52 @@ a:hover {
 
 .blognav a {
   color: #008FFF;
+}
+
+/* STATISTICS */
+
+.stat--love {
+  margin-top: 2000px;
+  z-index: 2;
+  left: 21vw;
+}
+
+.stat--msg {
+  margin-top: 2300px;
+  z-index: 4;
+  left: 28vw;
+}
+
+.stat--money {
+  margin-top: 2090px;
+  z-index: 4;
+  right: 28vw;
+}
+
+.stat--plane {
+  margin-top: 2400px;
+  z-index: 4;
+  right: 26vw;
+}
+
+.stat--registratedBrands {
+  margin-top: 2100px;
+  z-index: 3;
+  left: 23vw;
+  border-radius: 8px;
+}
+
+.stat--registratedinfluencers {
+  margin-top: 1900px;
+  z-index: 4;
+  right: 16vw;
+  border-radius: 8px;
+}
+
+.stat--createdMatches {
+  margin-top: 2200px;
+  z-index: 4;
+  right: 26vw;
+  border-radius: 8px;
 }
 

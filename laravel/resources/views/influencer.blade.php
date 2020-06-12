@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Influencer | Connus</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="https://kit.fontawesome.com/e9fc8806c8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         </div>
 
         <div class="section--first">
-            <p class="title">We see you and how you<br>can change the world</p>
+            <p class="title"><span>We see you and how you</span><span>can change the world</span></p>
             <p class="subtitle">A breakthrough in creating intuitive new opportunities<br>to inspire others through
                 influencer marketing.</p>
             <div class="download--btns">
@@ -70,6 +71,41 @@
         </div>
 
         <img class="swipe--phone" src="images\swipe.png" alt="swipe">
+
+        <div class="stats--influencer stat--love">
+            <i class="fas fa-heart fa-2x stat--icon"></i>
+            <a class="stat--info"><span class="bold">+33</span></a>
+        </div>
+
+        <div class="stats--influencer stat--registratedBrands">
+            <i class="number stat--icon">103</i>
+            <a class="stat--info"><span>Merken zijn al</span><span class="bold">geregistreerd</span></a>
+        </div>
+
+        <div class="stats--influencer stat--msg">
+            <i class="fas fa-comment-alt fa-2x fa-flip-horizontal stat--icon "></i>
+            <a class="stat--info"><span class="bold">+12</span></a>
+        </div>
+
+        <div class="stats--influencer stat--registratedinfluencers">
+            <i class="number stat--icon">93</i>
+            <a class="stat--info"><span>Influencers zijn al</span><span class="bold">geregistreerd</span></a>
+        </div>
+
+        <div class="stats--influencer stat--money">
+            <i class="fas fa-comment-dollar fa-2x stat--icon "></i>
+            <a class="stat--info"><span class="bold">+€121</span></a>
+        </div>
+
+        <div class="stats--influencer stat--createdMatches">
+            <i class="number stat--icon">186</i>
+            <a class="stat--info"><span>Gecreeërde</span><span class="bold">matches</span></a>
+        </div>
+
+        <div class="stats--influencer stat--plane">
+            <i class="fas fa-paper-plane fa-2x stat--icon "></i>
+            <a class="stat--info"><span class="bold">+€603</span></a>
+        </div>
 
     </div>
 </body>

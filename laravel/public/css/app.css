@@ -11255,6 +11255,11 @@ a {
   color: #EBF2F5;
 }
 
+.desktopapp {
+  display: flex;
+  z-index: 4;
+}
+
 .background-images {
   height: 750px;
   width: 100%;
@@ -11758,5 +11763,21 @@ a:hover {
 
 .active {
   background-color: #008FFF;
+}
+
+.micro {
+  display: none;
+}
+
+.meso {
+  display: none;
+}
+
+.macro {
+  display: none;
+}
+
+.mega {
+  display: none;
 }
 

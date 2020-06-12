@@ -54,6 +54,11 @@ a {
     color: $white;
 }
 
+.desktopapp {
+    display: flex;
+    z-index: 4;
+}
+
 .background-images {
     height: 750px;
     width: 100%;
@@ -477,3 +482,9 @@ a:hover {text-decoration: none;}
 .active {
     background-color: $regular-blue;
 }
+
+// .nano {display: contents;}
+.micro {display: none;}
+.meso {display: none;}
+.macro {display: none;}
+.mega {display: none;}

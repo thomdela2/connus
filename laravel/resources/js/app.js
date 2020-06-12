@@ -6,7 +6,7 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+// window.Vue = require('vue');
 
 /**
  * The following block of code may be used to automatically register your
@@ -31,4 +31,44 @@ window.Vue = require('vue');
 //     el: '#app',
 // });
 
-console.log('Test activated');
+
+
+let megaBtn = document.getElementById("mega").addEventListener('click', function() {
+    document.querySelector('.mega').style.display = "block";
+    document.querySelector('.macro').style.display = "none";
+    document.querySelector('.meso').style.display = "none";
+    document.querySelector('.micro').style.display = "none";
+    document.querySelector('.nano').style.display = "none";
+})
+
+let macroBtn = document.getElementById("macro").addEventListener('click', function() {
+    document.querySelector('.mega').style.display = "none";
+    document.querySelector('.macro').style.display = "block";
+    document.querySelector('.meso').style.display = "none";
+    document.querySelector('.micro').style.display = "none";
+    document.querySelector('.nano').style.display = "none";
+})
+
+let mesoBtn = document.getElementById("meso").addEventListener('click', function() {
+    document.querySelector('.mega').style.display = "none";
+    document.querySelector('.macro').style.display = "none";
+    document.querySelector('.meso').style.display = "block";
+    document.querySelector('.micro').style.display = "none";
+    document.querySelector('.nano').style.display = "none";
+})
+
+let microBtn = document.getElementById("micro").addEventListener('click', function() {
+    document.querySelector('.mega').style.display = "none";
+    document.querySelector('.macro').style.display = "none";
+    document.querySelector('.meso').style.display = "none";
+    document.querySelector('.micro').style.display = "block";
+    document.querySelector('.nano').style.display = "none";
+})
+
+let nanoBtn = document.getElementById("nano").addEventListener('click', function() {
+    document.querySelector('.mega').style.display = "none";
+    document.querySelector('.macro').style.display = "none";
+    document.querySelector('.meso').style.display = "none";
+    document.querySelector('.micro').style.display = "none";
+    document.querySelector('.nano').style.display = "block";
+})

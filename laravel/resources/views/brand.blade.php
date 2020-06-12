@@ -112,14 +112,242 @@
             <p class="title"><span>Find out what</span><span>influencer you need</span></p>
                 <div class="influencertypenav">
                     <ul>
-                        <li>Mega</li>
-                        <li>Macro</li>
-                        <li>Meso</li>
-                        <li>Micro</li>
-                        <li>Nano</li>
+                        <li id="mega">Mega</li>
+                        <li id="macro"">Macro</li>
+                        <li id="meso">Meso</li>
+                        <li id="micro">Micro</li>
+                        <li id="nano">Nano</li>
                     </ul>
                 </div>
-                <div class="influencertypebio">
+                <div class="influencertypebio mega">
+                    <p class="biotitle">Mega-influencers</p>
+                    <p class="biodigits">Over 1M followers</p>
+                    <div class="categoryoverview">
+                        <div class="category">
+                            <p class="categoryname">Reach</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Engagement</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Complexity</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Trust</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Cost</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="influencertypebio macro">
+                    <p class="biotitle">Macro-influencers</p>
+                    <p class="biodigits">100K - 1M followers</p>
+                    <div class="categoryoverview">
+                        <div class="category">
+                            <p class="categoryname">Reach</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Engagement</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Complexity</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Trust</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Cost</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="influencertypebio meso">
+                    <p class="biotitle">Meso-influencers</p>
+                    <p class="biodigits">20K - 100K followers</p>
+                    <div class="categoryoverview">
+                        <div class="category">
+                            <p class="categoryname">Reach</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Engagement</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Complexity</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Trust</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Cost</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="influencertypebio micro">
+                    <p class="biotitle">Micro-influencers</p>
+                    <p class="biodigits">5K - 20K followers</p>
+                    <div class="categoryoverview">
+                        <div class="category">
+                            <p class="categoryname">Reach</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Engagement</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Complexity</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Trust</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Cost</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="influencertypebio nano">
                     <p class="biotitle">Nano-influencers</p>
                     <p class="biodigits">1K - 5K followers</p>
                     <div class="categoryoverview">
@@ -192,7 +420,7 @@
         </div>
 
     </div>
-    <script src="{{ asset('js/app.js') }}"></script>
+    {{-- <script src="{{ asset('js/app.js') }}"></script> --}}
 </body>
 
 </html>

@@ -11289,7 +11289,7 @@ a {
 
 .section--background {
   width: 100%;
-  margin-top: -360px;
+  margin-top: -130px;
 }
 
 .footer--background {
@@ -11528,6 +11528,44 @@ a:hover {
   color: #008FFF;
 }
 
+.section--fourth {
+  width: 60vw;
+  position: absolute;
+  margin-top: 2800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section--fourth .title {
+  color: #008FFF;
+  line-height: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section--fourth .bold {
+  color: #008FFF;
+}
+
+.section--fifth {
+  width: 80vw;
+  position: absolute;
+  margin-top: 3580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section--fifth .title {
+  color: #008FFF;
+}
+
+.section--fifth .subtitle {
+  color: #008FFF;
+}
+
 /* STATISTICS */
 
 .stat--love {
@@ -11605,6 +11643,82 @@ a:hover {
   right: 33vw;
 }
 
+.influencertypenav {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.influencertypenav ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.influencertypenav ul li {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+}
+
+.influencertypebio {
+  width: 100%;
+  height: 320px;
+  background-color: #EBF2F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.influencertypebio .biotitle {
+  margin-top: 10px;
+  font-family: tenon, sans-serif;
+  font-size: 44pt;
+  font-weight: 200;
+  font-style: normal;
+  color: #008FFF;
+}
+
+.influencertypebio .biodigits {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.categoryoverview {
+  width: 94%;
+  height: 60%;
+  display: flex;
+}
+
+.categoryoverview .category {
+  width: 100%;
+  height: 90%;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryoverview .category .categoryname {
+  font-family: tenon, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14pt;
+}
+
+.categoryoverview .category div {
+  line-height: 0em;
+}
+
 /* IMAGES */
 
 .img {
@@ -11629,5 +11743,20 @@ a:hover {
 
 .boardx {
   height: 40px;
+}
+
+.cirkel {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.noneactive {
+  background-color: rgba(0, 145, 255, 0.2);
+}
+
+.active {
+  background-color: #008FFF;
 }
 

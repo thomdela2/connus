@@ -108,7 +108,91 @@
             <img class="img breydel" src="images\icons\breydel.png" alt="boardx">
         </div>
 
+        <div class="section--fourth">
+            <p class="title"><span>Find out what</span><span>influencer you need</span></p>
+                <div class="influencertypenav">
+                    <ul>
+                        <li>Mega</li>
+                        <li>Macro</li>
+                        <li>Meso</li>
+                        <li>Micro</li>
+                        <li>Nano</li>
+                    </ul>
+                </div>
+                <div class="influencertypebio">
+                    <p class="biotitle">Nano-influencers</p>
+                    <p class="biodigits">1K - 5K followers</p>
+                    <div class="categoryoverview">
+                        <div class="category">
+                            <p class="categoryname">Reach</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Engagement</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Complexity</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Trust</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel active"></span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <p class="categoryname">Cost</p>
+                            <div>
+                                <span class="cirkel active"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                                <span class="cirkel noneactive"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+        <div class="section--fifth">
+            <p class="title">Engagement rate</p>
+            <div class="subtitle sub-center">
+                <span>The engagement rate reflects in what extent your influencer
+                    connects to it's followers.</span>
+                    <span>It show the interaction between
+                    influencer and audience.</span> <span class="bold">What we see is that Micro influencers
+                    have an ER of 2,93%</span><span class="bold">while Nano-influencers has an ER
+                    over 6.44%.</span>
+
+            </div>
+        </div>
+
     </div>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>

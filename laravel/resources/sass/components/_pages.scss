@@ -136,11 +136,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .section-adv a {
     font-family: $fontfam;
-    font-size: $fontsize-backoffice-content;
+    font-size: 22pt;
     font-weight: $fontweight-bold;
     margin-left: 10px;
     color: $white;
@@ -370,16 +371,25 @@ a:hover {text-decoration: none;}
 
 .kbc-start {
     width: 60vw;
-    height: 500px;
-    // right: 0vw;
+    z-index: 5;
+    height: 340px;
+    right: 0vw;
     position: absolute;
-    margin-top: 6050px;
+    margin-top: 6180px;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.4em;
-    background: $test;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
 
+.kbc-brand {
+    background-image: linear-gradient(to bottom right, $regular-purple, $dark-purple);
+}
+
+.kbc-influencer {
+    background-image: linear-gradient(to bottom right, $regular-yellow $dark-yellow);
 }
 
 /* STATISTICS */

@@ -38,6 +38,6 @@ Route::get('login/blogs/delete/{blog}', 'BlogController@getDeleted')->name('dele
 Route::get('login/blogs/add', 'BlogController@getCreate')->name('addblogs');
 Route::post('login/blogs/save', 'BlogController@postSave')->name('saveblog');
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 // Route::get('/home', 'HomeController@index')->name('home');

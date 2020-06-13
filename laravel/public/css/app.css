@@ -11351,7 +11351,7 @@ a {
 
 .section-adv a {
   font-family: tenon, sans-serif;
-  font-size: 14pt;
+  font-size: 22pt;
   font-weight: 800;
   margin-left: 10px;
   color: #EBF2F5;
@@ -11619,14 +11619,25 @@ a:hover {
 
 .kbc-start {
   width: 60vw;
-  height: 500px;
+  z-index: 5;
+  height: 340px;
+  right: 0vw;
   position: absolute;
-  margin-top: 6050px;
+  margin-top: 6180px;
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 1.4em;
-  background: #51e9af;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.kbc-brand {
+  background-image: linear-gradient(to bottom right, #BD19BE, #7708A7);
+}
+
+.kbc-influencer {
+  background-image: linear-gradient(to bottom right, #FFCB21 #EFA517);
 }
 
 /* STATISTICS */

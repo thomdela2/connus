@@ -81,7 +81,7 @@
 
         <div class="stats--influencer stat--registratedBrands">
             <i class="number stat--icon">103</i>
-            <a class="stat--info"><span>Merken zijn al</span><span class="bold">geregistreerd</span></a>
+            <a class="stat--info"><span>Registrated</span><span class="bold">brands</span></a>
         </div>
 
         <div class="stats--influencer stat--msg">
@@ -91,7 +91,7 @@
 
         <div class="stats--influencer stat--registratedinfluencers">
             <i class="number stat--icon">93</i>
-            <a class="stat--info"><span>Influencers zijn al</span><span class="bold">geregistreerd</span></a>
+            <a class="stat--info"><span>Registrated</span><span class="bold">influencers</span></a>
         </div>
 
         <div class="stats--influencer stat--money">
@@ -101,12 +101,36 @@
 
         <div class="stats--influencer stat--createdMatches">
             <i class="number stat--icon">186</i>
-            <a class="stat--info"><span>Gecreeërde</span><span class="bold">matches</span></a>
+            <a class="stat--info"><span>Created</span><span class="bold">matches</span></a>
         </div>
 
         <div class="stats--influencer stat--plane">
             <i class="fas fa-paper-plane fa-2x stat--icon "></i>
             <a class="stat--info"><span class="bold">+€603</span></a>
+        </div>
+
+        <div class="section-advertention">
+            <p class="title">
+                <span>Get payed to</span><span>use our app</span>
+            </p>
+            <div class="subtitle sub-center">
+                <span class="bold">This content will be replaced.</span>
+                <span>This 'click-based' advertising gives you the</span>
+                <span>security that you pay when your brand raises</span>
+                <span>it's brand-awareness or when you connect
+                to influencers.</span>
+            </div>
+
+            <div class="section-adv">
+                <img class="line--icon" src="images\connus.line.white.png" alt="stripe">
+                <a href="{{ route('infuencer-ads') }}">Learn more</a>
+            </div>
+        </div>
+
+        <img class="imageIphone--ad" src="images\iPhone11tagmag.png" alt="Iphone--ad">
+
+        <div class="kbc-start kbc-influencer">
+
         </div>
 
     </div>

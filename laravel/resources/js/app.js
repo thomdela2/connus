@@ -36,43 +36,63 @@ let megaBtn = document.getElementById("mega").addEventListener('click', function
     document.querySelector('#mega').style.color = "#008FFF";
     // document.querySelector('.mega').style.position = "static";
     document.querySelector('.macro').style.display = "none";
+    document.querySelector('#macro').style.color = "#161616";
     document.querySelector('.meso').style.display = "none";
+    document.querySelector('#meso').style.color = "#161616";
     document.querySelector('.micro').style.display = "none";
+    document.querySelector('#micro').style.color = "#161616";
     document.querySelector('.nano').style.display = "none";
+    document.querySelector('#nano').style.color = "#161616";
 })
 
 let macroBtn = document.getElementById("macro").addEventListener('click', function() {
     document.querySelector('.mega').style.display = "none";
+    document.querySelector('#mega').style.color = "#161616";
     document.querySelector('.macro').style.display = "flex";
     document.querySelector('#macro').style.color = "#008FFF";
     document.querySelector('.meso').style.display = "none";
+    document.querySelector('#meso').style.color = "#161616";
     document.querySelector('.micro').style.display = "none";
+    document.querySelector('#micro').style.color = "#161616";
     document.querySelector('.nano').style.display = "none";
+    document.querySelector('#nano').style.color = "#161616";
 })
 
 let mesoBtn = document.getElementById("meso").addEventListener('click', function() {
     document.querySelector('.mega').style.display = "none";
+    document.querySelector('#mega').style.color = "#161616";
     document.querySelector('.macro').style.display = "none";
+    document.querySelector('#macro').style.color = "#161616";
     document.querySelector('.meso').style.display = "flex";
     document.querySelector('#meso').style.color = "#008FFF";
     document.querySelector('.micro').style.display = "none";
+    document.querySelector('#micro').style.color = "#161616";
     document.querySelector('.nano').style.display = "none";
+    document.querySelector('#nano').style.color = "#161616";
 })
 
 let microBtn = document.getElementById("micro").addEventListener('click', function() {
     document.querySelector('.mega').style.display = "none";
+    document.querySelector('#mega').style.color = "#161616";
     document.querySelector('.macro').style.display = "none";
+    document.querySelector('#macro').style.color = "#161616";
     document.querySelector('.meso').style.display = "none";
+    document.querySelector('#meso').style.color = "#161616";
     document.querySelector('.micro').style.display = "flex";
     document.querySelector('#micro').style.color = "#008FFF";
     document.querySelector('.nano').style.display = "none";
+    document.querySelector('#nano').style.color = "#161616";
 })
 
 let nanoBtn = document.getElementById("nano").addEventListener('click', function() {
     document.querySelector('.mega').style.display = "none";
+    document.querySelector('#mega').style.color = "#161616";
     document.querySelector('.macro').style.display = "none";
+    document.querySelector('#macro').style.color = "#161616";
     document.querySelector('.meso').style.display = "none";
+    document.querySelector('#meso').style.color = "#161616";
     document.querySelector('.micro').style.display = "none";
+    document.querySelector('#micro').style.color = "#161616";
     document.querySelector('.nano').style.display = "flex";
     document.querySelector('#nano').style.color = "#008FFF";
 })

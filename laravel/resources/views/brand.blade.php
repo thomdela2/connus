@@ -80,7 +80,7 @@
 
         <div class="stats--brand stat--registratedBrands">
             <i class="number stat--icon">103</i>
-            <a class="stat--info"><span>Merken zijn al</span><span class="bold">geregistreerd</span></a>
+            <a class="stat--info"><span>Registrated</span><span class="bold">brands</span></a>
         </div>
 
         <div class="stats--brand stat--tagmag">
@@ -93,7 +93,7 @@
 
         <div class="stats--brand stat--registratedinfluencers">
             <i class="number stat--icon">93</i>
-            <a class="stat--info"><span>Influencers zijn al</span><span class="bold">geregistreerd</span></a>
+            <a class="stat--info"><span>Registrated</span><span class="bold">influencers</span></a>
         </div>
 
         <div class="stats--brand stat--cake">
@@ -102,7 +102,7 @@
 
         <div class="stats--brand stat--createdMatches">
             <i class="number stat--icon">186</i>
-            <a class="stat--info"><span>Gecreeërde</span><span class="bold">matches</span></a>
+            <a class="stat--info"><span>Created</span><span class="bold">matches</span></a>
         </div>
 
         <div class="stats--brand stat--breydel">
@@ -440,9 +440,8 @@
 
         <img class="imageIphone--ad" src="images\iPhone11tagmag.png" alt="Iphone--ad">
 
-        <div class="kbc-start">
-            {{-- <p class="title">Proud partner of</p>
-            <img class="imageKbc" src="images\startitkbc.png" alt="startitkbc"> --}}
+        <div class="kbc-start kbc-brand">
+
         </div>
 
     </div>

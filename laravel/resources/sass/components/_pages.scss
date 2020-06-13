@@ -129,6 +129,23 @@ a {
 
 #name { font-weight: $fontweight-bold; }
 
+.section-adv {
+    // background-color: $test;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-adv a {
+    font-family: $fontfam;
+    font-size: $fontsize-backoffice-content;
+    font-weight: $fontweight-bold;
+    margin-left: 10px;
+    color: $white;
+}
+
 /* STATES */
 a:hover {text-decoration: none;}
 
@@ -158,6 +175,16 @@ a:hover {text-decoration: none;}
     height: 600px;
     top: 220px;
     right: 7vw;
+}
+
+.imageIphone--ad {
+    position: absolute;
+    height: 600px;
+    top: 5200px;
+    right: 8vw;
+    -ms-transform: rotate(3deg); /* IE 9 */
+    transform: rotate(3deg);
+    // box-shadow: 18px 3px 81px -17px rgba(0, 0, 0, 0.644);
 }
 
 .swipe--phone {
@@ -318,6 +345,41 @@ a:hover {text-decoration: none;}
     .subtitle {
         color: $regular-blue;
     }
+}
+
+.section-advertention {
+    width: 60vw;
+    left: 5vw;
+    position: absolute;
+    margin-top: 5250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4em;
+    // background: $test;
+    .title {
+        color: $white;
+    }
+    .subtitle {
+        color: $white;
+        // width: 60%;
+        margin-bottom: 20px;
+    }
+}
+
+.kbc-start {
+    width: 60vw;
+    height: 500px;
+    // right: 0vw;
+    position: absolute;
+    margin-top: 6050px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.4em;
+    background: $test;
+
 }
 
 /* STATISTICS */
@@ -483,8 +545,20 @@ a:hover {text-decoration: none;}
     background-color: $regular-blue;
 }
 
-// .nano {display: contents;}
-.micro {display: none;}
-.meso {display: none;}
-.macro {display: none;}
-.mega {display: none;}
+.imageEngRate {
+    width: 55vw;
+    position: absolute;
+    margin-top: 3950px;
+}
+
+#mega:hover, #macro:hover, #meso:hover, #micro:hover, #nano:hover {
+    cursor: pointer;
+    color: #0091ff9d;
+}
+
+#mega { color: $regular-blue; }
+.nano { z-index: 6; position: static; display: none;}
+.micro { z-index: 6; position: static; display: none;}
+.meso { z-index: 6; position: static; display: none;}
+.macro { z-index: 6; position: static; display: none;}
+.mega { z-index: 6; position: static;}

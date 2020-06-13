@@ -31,10 +31,10 @@ require('./bootstrap');
 //     el: '#app',
 // });
 
-
-
 let megaBtn = document.getElementById("mega").addEventListener('click', function() {
-    document.querySelector('.mega').style.display = "block";
+    document.querySelector('.mega').style.display = "flex";
+    document.querySelector('#mega').style.color = "#008FFF";
+    // document.querySelector('.mega').style.position = "static";
     document.querySelector('.macro').style.display = "none";
     document.querySelector('.meso').style.display = "none";
     document.querySelector('.micro').style.display = "none";
@@ -43,7 +43,8 @@ let megaBtn = document.getElementById("mega").addEventListener('click', function
 
 let macroBtn = document.getElementById("macro").addEventListener('click', function() {
     document.querySelector('.mega').style.display = "none";
-    document.querySelector('.macro').style.display = "block";
+    document.querySelector('.macro').style.display = "flex";
+    document.querySelector('#macro').style.color = "#008FFF";
     document.querySelector('.meso').style.display = "none";
     document.querySelector('.micro').style.display = "none";
     document.querySelector('.nano').style.display = "none";
@@ -52,7 +53,8 @@ let macroBtn = document.getElementById("macro").addEventListener('click', functi
 let mesoBtn = document.getElementById("meso").addEventListener('click', function() {
     document.querySelector('.mega').style.display = "none";
     document.querySelector('.macro').style.display = "none";
-    document.querySelector('.meso').style.display = "block";
+    document.querySelector('.meso').style.display = "flex";
+    document.querySelector('#meso').style.color = "#008FFF";
     document.querySelector('.micro').style.display = "none";
     document.querySelector('.nano').style.display = "none";
 })
@@ -61,7 +63,8 @@ let microBtn = document.getElementById("micro").addEventListener('click', functi
     document.querySelector('.mega').style.display = "none";
     document.querySelector('.macro').style.display = "none";
     document.querySelector('.meso').style.display = "none";
-    document.querySelector('.micro').style.display = "block";
+    document.querySelector('.micro').style.display = "flex";
+    document.querySelector('#micro').style.color = "#008FFF";
     document.querySelector('.nano').style.display = "none";
 })
 
@@ -70,5 +73,6 @@ let nanoBtn = document.getElementById("nano").addEventListener('click', function
     document.querySelector('.macro').style.display = "none";
     document.querySelector('.meso').style.display = "none";
     document.querySelector('.micro').style.display = "none";
-    document.querySelector('.nano').style.display = "block";
+    document.querySelector('.nano').style.display = "flex";
+    document.querySelector('#nano').style.color = "#008FFF";
 })

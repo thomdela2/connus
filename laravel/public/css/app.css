@@ -11341,6 +11341,22 @@ a {
   font-weight: 800;
 }
 
+.section-adv {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-adv a {
+  font-family: tenon, sans-serif;
+  font-size: 14pt;
+  font-weight: 800;
+  margin-left: 10px;
+  color: #EBF2F5;
+}
+
 /* STATES */
 
 a:hover {
@@ -11379,6 +11395,15 @@ a:hover {
   height: 600px;
   top: 220px;
   right: 7vw;
+}
+
+.imageIphone--ad {
+  position: absolute;
+  height: 600px;
+  top: 5200px;
+  right: 8vw;
+  /* IE 9 */
+  transform: rotate(3deg);
 }
 
 .swipe--phone {
@@ -11569,6 +11594,39 @@ a:hover {
 
 .section--fifth .subtitle {
   color: #008FFF;
+}
+
+.section-advertention {
+  width: 60vw;
+  left: 5vw;
+  position: absolute;
+  margin-top: 5250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4em;
+}
+
+.section-advertention .title {
+  color: #EBF2F5;
+}
+
+.section-advertention .subtitle {
+  color: #EBF2F5;
+  margin-bottom: 20px;
+}
+
+.kbc-start {
+  width: 60vw;
+  height: 500px;
+  position: absolute;
+  margin-top: 6050px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.4em;
+  background: #51e9af;
 }
 
 /* STATISTICS */
@@ -11765,19 +11823,51 @@ a:hover {
   background-color: #008FFF;
 }
 
+.imageEngRate {
+  width: 55vw;
+  position: absolute;
+  margin-top: 3950px;
+}
+
+#mega:hover,
+#macro:hover,
+#meso:hover,
+#micro:hover,
+#nano:hover {
+  cursor: pointer;
+  color: #0091ff9d;
+}
+
+#mega {
+  color: #008FFF;
+}
+
+.nano {
+  z-index: 6;
+  position: static;
+  display: none;
+}
+
 .micro {
+  z-index: 6;
+  position: static;
   display: none;
 }
 
 .meso {
+  z-index: 6;
+  position: static;
   display: none;
 }
 
 .macro {
+  z-index: 6;
+  position: static;
   display: none;
 }
 
 .mega {
-  display: none;
+  z-index: 6;
+  position: static;
 }
 

@@ -25,6 +25,7 @@
                 <a href="{{ route('influencers') }}">I am an influencer</a>
             </div>
         </div>
+
         <div class="maincontent">
             <img class="header--background" src="images\backgrounds\header.png" alt="header--background">
             <img class="bassline--background" src="images\backgrounds\bassline.png" alt="bassline--background">
@@ -415,12 +416,37 @@
                     influencer and audience.</span> <span class="bold">What we see is that Micro influencers
                     have an ER of 2,93%</span><span class="bold">while Nano-influencers has an ER
                     over 6.44%.</span>
-
             </div>
         </div>
 
+        <img class="imageEngRate" src="images\backgrounds\engagementrate.png" alt="engagementrate">
+
+        <div class="section-advertention">
+            <p class="title">
+                <span>Advertisement</span><span>revenue model</span>
+            </p>
+            <div class="subtitle sub-center">
+                <span class="bold">At Connus, you only pay when you get found.</span>
+                <span>This 'click-based' advertising gives you the</span>
+                <span>security that you pay when your brand raises</span>
+                <span>it's brand-awareness or when you connect
+                to influencers.</span>
+            </div>
+            <div class="section-adv">
+                <img class="line--icon" src="images\connus.line.white.png" alt="stripe">
+                <a href="{{ route('brand-ads') }}">Advertising at Connus</a>
+            </div>
+        </div>
+
+        <img class="imageIphone--ad" src="images\iPhone11tagmag.png" alt="Iphone--ad">
+
+        <div class="kbc-start">
+            {{-- <p class="title">Proud partner of</p>
+            <img class="imageKbc" src="images\startitkbc.png" alt="startitkbc"> --}}
+        </div>
+
     </div>
-    {{-- <script src="{{ asset('js/app.js') }}"></script> --}}
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>

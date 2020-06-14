@@ -130,7 +130,8 @@
         <img class="imageIphone--ad" src="images\iPhone11tagmag.png" alt="Iphone--ad">
 
         <div class="kbc-start kbc-influencer">
-
+            <p class="kbc-title">Proud partner of</p>
+            <a href="https://startit.be/" target="_blank"><img src="images\startitkbc.png" alt="startitkbc" class="kbc-image"></a>
         </div>
 
     </div>

@@ -11,6 +11,11 @@
 </head>
 
 <body>
+
+    <div class="indevelopment">
+        <p class="title"><span>We are currently working</span><span>on the mobile website</span></p>
+    </div>
+
     <div class="desktop">
         <div class="navigationcontainer">
             <div class="leftnav">
@@ -39,6 +44,10 @@
         <div class="section--first">
             <p class="title">More business. More customers.<br>More sales. More revenue.</p>
             <p class="subtitle">Real people buy your products,<br>but real people can sell your products too.</p>
+            <div class="section-adv">
+                <img class="line--icon" src="images\connus.line.white.png" alt="stripe">
+                <a href="">Open desktop app</a>
+            </div>
             <div class="download--btns">
                 <a href="https://play.google.com/store/apps/details?id=com.nebulae.connus&hl=nl" target="_blank"><img
                         class="download--btn" src="images\icons\GooglePlay.png" alt="GooglePlay"></a>
@@ -421,7 +430,7 @@
 
         <img class="imageEngRate" src="images\backgrounds\engagementrate.png" alt="engagementrate">
 
-        <div class="section-advertention">
+        <div class="section-advertention ad-brand">
             <p class="title">
                 <span>Advertisement</span><span>revenue model</span>
             </p>
@@ -443,6 +452,25 @@
         <div class="kbc-start kbc-brand">
             <p class="kbc-title">Proud partner of</p>
             <a href="https://startit.be/"><img src="images\startitkbc.png" alt="startitkbc" class="kbc-image"></a>
+        </div>
+
+        <img class="img-cta" src="images\profiel.png" alt="profiel">
+
+        <div class="cta">
+            <div class="cta-content">
+                <p class="title"><span>Find your perfect</span><span>influencer right now!</span></p>
+                <div class="section-adv">
+                    <img class="line--icon" src="images\connus.line.black.png" alt="stripe">
+                    <a href="">Open desktop app</a>
+                </div>
+                <div class="download--btns">
+                    <a href="https://play.google.com/store/apps/details?id=com.nebulae.connus&hl=nl" target="_blank"><img
+                            class="download--btn" src="images\icons\GooglePlay.png" alt="GooglePlay"></a>
+                    <a href="https://apps.apple.com/gb/app/connus/id1490442304?l=nl"><img class="download--btn"
+                            src="images\icons\AppleStore.png" alt="AppleStore"></a>
+                </div>
+
+            </div>
         </div>
 
     </div>

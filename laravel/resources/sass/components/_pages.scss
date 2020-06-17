@@ -12,6 +12,22 @@
     align-items: center;
 }
 
+.indevelopment {
+    display: none;
+    height: 100vh;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, $regular-blue, $dark-blue);
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 a {
     text-decoration: none;
     @include backoffice-content();
@@ -168,7 +184,7 @@ a:hover {text-decoration: none;}
 
 .download--btn {
     width: 220px;
-    margin-top: -40px;
+    margin-top: 0px;
 }
 
 .header--phone {
@@ -204,6 +220,10 @@ a:hover {text-decoration: none;}
     position: absolute;
     // background: $test;
     margin-top: 180px;
+    .section-adv {
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
 }
 
 .section--second {
@@ -284,6 +304,18 @@ a:hover {text-decoration: none;}
     }
     .subtitle {
         color: $white;
+    }
+}
+
+.section--control {
+    width: 80vw;
+    position: absolute;
+    margin-top: 2800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+        color: $regular-blue;
     }
 }
 
@@ -493,8 +525,6 @@ a:hover {text-decoration: none;}
     background-color: $white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border-radius: 12px;
     .biotitle {
         margin-top: 10px;
@@ -552,6 +582,18 @@ a:hover {text-decoration: none;}
 
 }
 
+.img-cta {
+    position: absolute;
+    margin-top: 6680px;
+
+    height: 500px;
+    left: 23%;
+    z-index: 3;
+
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
 .danone {height: 40px;}
 .tagmag {height: 50px;}
 .breydel {height: 60px;}
@@ -563,6 +605,47 @@ a:hover {text-decoration: none;}
     width: 22px;
     border-radius: 50%;
     display: inline-block;
+}
+
+.cta {
+    position: absolute;
+    margin-top: 6880px;
+    width: 50%;
+    height: 340px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    background-color: $white;
+    border-radius: 12px;
+}
+
+.cta-content {
+    height: 90%;
+    width: 65%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .title {
+        font-size: 28pt;
+        color: $regular-blue;
+    }
+    .section-adv {
+        width: 72%;
+        display: flex;
+        justify-content: flex-start;
+        a { font-size: $fontsize-backoffice-content; font-weight: $fontweight-bold; color: $black; }
+    }
+    .download--btns {
+        .download--btn {
+            margin-top: 10px;
+            width: 150px;
+        }
+    }
 }
 
 .noneactive {
@@ -584,8 +667,8 @@ a:hover {text-decoration: none;}
 }
 
 #mega { color: $regular-blue; }
-.nano { z-index: 6; position: static; display: none;}
-.micro { z-index: 6; position: static; display: none;}
-.meso { z-index: 6; position: static; display: none;}
-.macro { z-index: 6; position: static; display: none;}
-.mega { z-index: 6; position: static;}
+.nano { z-index: 6; position: static; display: none; align-items: center; justify-content: center;}
+.micro { z-index: 6; position: static; display: none; align-items: center; justify-content: center;}
+.meso { z-index: 6; position: static; display: none; align-items: center; justify-content: center;}
+.macro { z-index: 6; position: static; display: none; align-items: center; justify-content: center;}
+.mega { z-index: 6; position: static; align-items: center; justify-content: center;}

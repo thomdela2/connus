@@ -8,6 +8,16 @@
     <title>Brand | Connus</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <script src="https://kit.fontawesome.com/e9fc8806c8.js" crossorigin="anonymous"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images\favicon\apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images\favicon\favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images\favicon\favicon-16x16.png">
+	<link rel="manifest" href="images\favicon\site.webmanifest">
+	<link rel="mask-icon" href="images\favicon\safari-pinned-tab.svg" color="#008fff">
+	<link rel="shortcut icon" href="images\favicon\favicon.ico">
+	<meta name="msapplication-TileColor" content="#ebf2f5">
+	<meta name="msapplication-config" content="images\favicon\browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -17,6 +27,7 @@
     </div>
 
     <div class="desktop">
+
         <div class="navigationcontainer">
             <div class="leftnav">
                 <img class="logo--icon" href="{{ route('brands') }}" src="images\connus.icon.white.png" alt="logo">
@@ -470,6 +481,37 @@
                             src="images\icons\AppleStore.png" alt="AppleStore"></a>
                 </div>
 
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer--form">
+                <p class="title">Keep posted by Connus!</p>
+                <form action="">
+                    <input type="email" name="email" id="mail" placeholder="Please insert your e-mail">
+                    <div class="section-adv">
+                        <img class="line--icon" src="images\connus.line.white.png" alt="stripe">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer--info">
+                <div class="footer--language">
+                    <p class="info"><a>English</a></p>
+                    {{-- <p class="info"><a>Français</a></p>
+                    <p class="info"><a>Nederlands</a></p> --}}
+                </div>
+                <div class="footer--boldagency">
+                    <p class="info">Made by <a href="https://www.boldagency.be/" target="_blank">Bold Agency</a></p>
+                </div>
+                <div class="footer--policy">
+                    <p class="info"><a href="#">Privacy Policy</a></p>
+                </div>
+                <div class="footer--socials">
+                    <a href="https://www.instagram.com/connus_be/?hl=nl" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="https://www.instagram.com/connus_be/?hl=nl" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://www.facebook.com/Connus-104463651083787/" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
+                </div>
             </div>
         </div>
 

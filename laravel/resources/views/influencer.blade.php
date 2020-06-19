@@ -151,6 +151,25 @@
             <a href="https://startit.be/" target="_blank"><img src="images\startitkbc.png" alt="startitkbc" class="kbc-image"></a>
         </div>
 
+        <img class="img-cta" src="images\profiel.png" alt="profiel">
+
+        <div class="cta">
+            <div class="cta-content">
+                <p class="title"><span>Are you ready</span><span>to start your influencer</span><span>carreer right now?</span></p>
+                <div class="section-adv">
+                    <img class="line--icon" src="images\connus.line.black.png" alt="stripe">
+                    <a href="">Open desktop app</a>
+                </div>
+                <div class="download--btns">
+                    <a href="https://play.google.com/store/apps/details?id=com.nebulae.connus&hl=nl" target="_blank"><img
+                            class="download--btn" src="images\icons\GooglePlay.png" alt="GooglePlay"></a>
+                    <a href="https://apps.apple.com/gb/app/connus/id1490442304?l=nl"><img class="download--btn"
+                            src="images\icons\AppleStore.png" alt="AppleStore"></a>
+                </div>
+
+            </div>
+        </div>
+
         <div class="footer">
             <div class="footer--form">
                 <p class="title">Keep posted by Connus!</p>
